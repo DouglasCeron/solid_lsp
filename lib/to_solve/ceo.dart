@@ -1,4 +1,4 @@
-import 'package:solid_lsp/project_to_solve/employee.dart';
+import 'package:solid_lsp/to_solve/employee.dart';
 
 import 'manager.dart';
 

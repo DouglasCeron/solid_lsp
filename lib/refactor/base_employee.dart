@@ -1,15 +1,16 @@
-import 'package:solid_lsp/project_to_solve/manager.dart';
+import 'package:solid_lsp/refactor/employee_interface.dart';
 
-class Employee {
+abstract class BaseEMployee implements EmployeeInterface {
+  @override
   String? firstname;
+
+  @override
   String? lastname;
-  Employee? manager;
+
+  @override
   double? salary;
 
-  void assignManager(Manager manager) {
-    this.manager = manager;
-  }
-
+  @override
   void calculateMonthlySalary(int rank) {
     salary = (12.5 + (rank * 4)) * 220;
   }
@@ -19,7 +20,6 @@ class Employee {
       FirstName = $firstname
       LastName = $lastname
       Salary = $salary
-      manager = $manager
     
     ''';
   }

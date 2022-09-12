@@ -1,6 +1,4 @@
-import 'package:solid_lsp/lsp_applied/ceo.dart';
-import 'package:solid_lsp/lsp_applied/employee.dart';
-import 'package:solid_lsp/lsp_applied/manager.dart';
+import 'package:solid_lsp/refactor/manager.dart';
 
 void main(List<String> args) {
   var manager = Manager()

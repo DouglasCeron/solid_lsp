@@ -1,6 +1,6 @@
-import 'package:solid_lsp/lsp_applied/base_employee.dart';
-import 'package:solid_lsp/lsp_applied/employee.dart';
-import 'package:solid_lsp/lsp_applied/manager_interface.dart';
+import 'package:solid_lsp/refactor/base_employee.dart';
+import 'package:solid_lsp/refactor/employee.dart';
+import 'package:solid_lsp/refactor/manager_interface.dart';
 
 class Ceo extends BaseEMployee implements ManagerInterface {
   @override
